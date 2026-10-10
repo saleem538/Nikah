@@ -75,7 +75,6 @@ export function WeddingScratchCard() {
     >
       <div className="revealed-dates" aria-hidden={!revealed} aria-live="polite">
         <p>Nikah : 01/11/2026</p>
-        <p>valima:03/11/2026</p>
       </div>
 
       <canvas
