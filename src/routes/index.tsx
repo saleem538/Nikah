@@ -38,7 +38,7 @@ function Index() {
           With best compliments from <ChevronDown className={showNames ? "rotate-180" : ""} />
         </Button>
         {showNames && <ul id="compliment-names" className="compliment-names">
-          {["Dadu", "Nanu", "Mr Abdul Aleem mujahid", "Mr Rafiuddin shreef", "Mr Zakiuddin shareef", "Mr Lateefuddin shareef", "Mr Shafiuddin shareef", "Mr Mohammed Faheem", "Mr Mohammed Ismail", "Mr Syed Abdul Qayum", "Mr Mohammed Akram muneer uddin"].map(name => <li key={name}>{name}</li>)}
+          {["Dadu", "Nanu", "Mr Abdul Aleem mujahid","Mr Mohammed Faheem", "Mr Mohammed Ismail", "Mr Syed Abdul Qayum", "Mr Rafiuddin shreef", "Mr Zakiuddin shareef", "Mr Lateefuddin shareef", "Mr Shafiuddin shareef", "Mr Mohammed Akram muneer uddin"].map(name => <li key={name}>{name}</li>)}
         </ul>}
       </section>
       <section className="floral-section dates-section">
