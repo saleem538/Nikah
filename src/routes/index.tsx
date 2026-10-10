@@ -65,7 +65,7 @@ function Index() {
         <div className="venue-details">
           <p className="venue-label">Wedding venue</p>
           <h3 className="venue-name">Sudarshan Convention</h3>
-          <Button variant="link" asChild><a href="https://share.google/a4djyRf3YFNQsHYt6" target="_blank" rel="noopener noreferrer" aria-label="Open Sudarshan Convention location in Google Maps"><MapPin aria-hidden="true" />Google Maps</a></Button>
+          <Button variant="link" asChild className="maps-button"><a href="https://share.google/a4djyRf3YFNQsHYt6" target="_blank" rel="noopener noreferrer" aria-label="Open Sudarshan Convention location in Google Maps"><MapPin aria-hidden="true" />Google Maps</a></Button>
         </div>
         <div className="ornament" aria-hidden="true"><Heart size={18} strokeWidth={1} /></div>
       </section>
