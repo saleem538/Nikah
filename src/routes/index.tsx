@@ -11,10 +11,10 @@ import end from "@/assets/royal-grace-end-bg.jpg.asset.json";
 
 export const Route = createFileRoute("/")({
   head: () => ({ meta: [
-    { title: "A Blessed Journey | Nikah & Valima Invitation" },
-    { name: "description", content: "With your presence and duas, celebrate our Nikah on 1 November 2026 and Valima on 3 November 2026." },
-    { property: "og:title", content: "A Blessed Journey | Nikah & Valima Invitation" },
-    { property: "og:description", content: "You are warmly invited to celebrate our Nikah on 1 November and Valima on 3 November 2026." },
+    { title: "A Blessed Journey | Nikah Invitation" },
+    { name: "description", content: "With your presence and duas, celebrate our Nikah on 1 November 2026." },
+    { property: "og:title", content: "A Blessed Journey | Nikah Invitation" },
+    { property: "og:description", content: "You are warmly invited to celebrate our Nikah on 1 November." },
     { property: "og:type", content: "website" },
     { name: "twitter:card", content: "summary_large_image" },
   ] }),
@@ -43,7 +43,7 @@ function Index() {
       </section>
       <section className="floral-section dates-section">
         <img className="floral-background" src={general.url} alt="" loading="lazy" />
-        <p className="invitation-eyebrow">Two days. One blessed beginning.</p>
+        <p className="invitation-eyebrow">One blessed beginning.</p>
         <h2 className="section-title">You're invited</h2>
         <p className="section-subtitle">A celebration close to our hearts</p>
         <WeddingScratchCard />
@@ -68,32 +68,11 @@ function Index() {
           <Button variant="link" asChild><a href="https://share.google/a4djyRf3YFNQsHYt6" target="_blank" rel="noopener noreferrer" aria-label="Open Sudarshan Convention location in Google Maps"><MapPin aria-hidden="true" />Google Maps</a></Button>
         </div>
         <div className="ornament" aria-hidden="true"><Heart size={18} strokeWidth={1} /></div>
-        <div className="venue-details">
-          <h2 className="section-title" id="nikah-timeline-heading">Valima</h2>
-          <p className="venue-label">Reception venue · 3 November 2026</p>
-          <h3 className="venue-name">Mahboob pride palace</h3>
-          <Button variant="link" asChild><a href="https://share.google/s3SkonGXYZNWBLAsH" target="_blank" rel="noopener noreferrer" aria-label="Open Mahboob pride palace location in Google Maps"><MapPin aria-hidden="true" />Google Maps</a></Button>
-        </div>
-      </section>
-      <section className="floral-section sanchak-section" aria-labelledby="sanchak-heading">
-        <img className="floral-background" src={general.url} alt="" loading="lazy" />
-        <p className="invitation-eyebrow">Pre-wedding celebration</p>
-        <h2 className="section-title" id="sanchak-heading">Sanchak</h2>
-        <p className="section-subtitle">2:00PM</p>
-        <div className="venue-details">
-          <p className="venue-label">Sanchak venue</p>
-          <h3 className="venue-name">Unqiue palace</h3>
-          <Button variant="link" asChild><a href="https://share.google/kydG58p4KC3VtXHqM" target="_blank" rel="noopener noreferrer" aria-label="Open Unqiue palace location in Google Maps"><MapPin aria-hidden="true" />Google Maps</a></Button>
-        </div>
       </section>
       <section className="floral-section closing-section">
         <img className="floral-background" src={end.url} alt="" loading="lazy" />
         <h2 className="section-title">A few notes for you</h2>
         <div className="info-boxes">
-          <div className="info-box">
-            <h3 className="info-box-title">Transportation</h3>
-            <p className="info-box-copy">provided accordingly</p>
-          </div>
           <div className="info-box">
             <h3 className="info-box-title">Host Contacts</h3>
             <p className="info-box-copy"><a href="tel:+918790858515">+91 8790858515</a><br /><a href="tel:+917396308824">+91 7396308824</a></p>
